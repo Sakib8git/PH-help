@@ -6,7 +6,7 @@ const ToggleBtn = ({ toggler, setToggler }) => {
   return (
     <div className="text-right my-6 ">
       {btns.map((btn, ind) => {
-        console.log(ind);
+        // console.log(ind);
         return (
           <button
             onClick={() => {
